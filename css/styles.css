@@ -366,6 +366,10 @@ p {
   object-position: center;
 }
 
+.about-company-content {
+  font-size: 20px;
+}
+
 .about-company-content p {
   color: var(--color-muted);
 }
