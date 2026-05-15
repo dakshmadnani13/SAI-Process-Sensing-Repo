@@ -4,19 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SAI Process Sensing | About Us</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/about.css">
 </head>
 <body>
   <header class="site-header">
     <nav class="site-navigation" aria-label="Main navigation">
       <a class="site-navigation-logo" href="index.html">
-        <img src="images/Sai sensing logo bg removed.png" alt="SAI Process Sensing logo">
+        <img class="site-navigation-logo-image" src="images/Sai sensing logo bg removed.png" alt="SAI Process Sensing logo">
       </a>
       <ul class="site-navigation-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="about.html" class="current-page-link">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a class="site-navigation-link" href="index.html">Home</a></li>
+        <li class="site-navigation-products-dropdown">
+          <a class="site-navigation-link" href="products.html">Products <span class="site-navigation-products-dropdown-arrow" aria-hidden="true"></span></a>
+          <ul class="site-navigation-products-dropdown-menu" aria-label="Product categories">
+            <li><a class="site-navigation-products-dropdown-link" href="products.html">All Products</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="pressure.html">Pressure</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="differential-pressure.html">Differential Pressure</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="temperature.html">Temperature</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="level.html">Level</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="flow.html">Flow</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="switches.html">Switches</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="manifolds.html">Manifolds</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="gauges.html">Gauges</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="fittings.html">Fittings</a></li>
+          </ul>
+        </li>
+        <li><a class="site-navigation-link current-page-link" href="about.html">About Us</a></li>
+        <li><a class="site-navigation-link" href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
   </header>
@@ -27,7 +42,7 @@
       <h1 id="about-page-title">Advanced process sensing solutions for demanding industrial environments.</h1>
     </section>
 
-    <section class="about-company-section" aria-labelledby="about-company-title">
+    <section class="about-company-section shared-section-panel" aria-labelledby="about-company-title">
       <img class="about-company-image" src="images/about us image.png" alt="Industrial process instrumentation equipment">
       <div class="about-company-content">
         <h2 id="about-company-title">Who we are</h2>
@@ -41,25 +56,25 @@
       <p class="section-label-text">Our Values</p>
       <h2 id="about-values-title">Built around safer, smarter industry.</h2>
 
-      <div class="about-values-grid">
-        <article class="about-value-card">
+      <div class="about-values-grid shared-section-panel">
+        <article class="about-value-card shared-content-card">
           <h3>Safe</h3>
           <p>We prioritize dependable instrumentation and responsible support for critical industrial operations.</p>
         </article>
 
-        <article class="about-value-card">
+        <article class="about-value-card shared-content-card">
           <h3>Advanced</h3>
           <p>We work with modern process sensing technologies designed for accuracy, durability, and performance.</p>
         </article>
 
-        <article class="about-value-card">
+        <article class="about-value-card shared-content-card">
           <h3>Innovative</h3>
           <p>We help customers find practical solutions that improve efficiency, reliability, and long-term process control.</p>
         </article>
       </div>
     </section>
 
-    <section class="about-industries-section" aria-labelledby="about-industries-title">
+    <section class="about-industries-section shared-section-panel" aria-labelledby="about-industries-title">
       <div class="about-industries-content">
         <p class="section-label-text">We Work With</p>
         <h2 id="about-industries-title">Industries we support</h2>
@@ -73,7 +88,14 @@
   <footer class="site-footer">
     <p>&copy; 2026 SAI Process Sensing. All rights reserved.</p>
   </footer>
+  
 </body>
 </html>
+
+
+
+
+
+
 
 

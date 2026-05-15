@@ -4,19 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SAI Process Sensing | Products</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/products.css">
 </head>
 <body>
   <header class="site-header">
     <nav class="site-navigation" aria-label="Main navigation">
       <a class="site-navigation-logo" href="index.html">
-        <img src="images/Sai sensing logo bg removed.png" alt="SAI Process Sensing logo">
+        <img class="site-navigation-logo-image" src="images/Sai sensing logo bg removed.png" alt="SAI Process Sensing logo">
       </a>
       <ul class="site-navigation-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html" class="current-page-link">Products</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a class="site-navigation-link" href="index.html">Home</a></li>
+        <li class="site-navigation-products-dropdown">
+          <a class="site-navigation-link current-page-link" href="products.html">Products <span class="site-navigation-products-dropdown-arrow" aria-hidden="true"></span></a>
+          <ul class="site-navigation-products-dropdown-menu" aria-label="Product categories">
+            <li><a class="site-navigation-products-dropdown-link" href="products.html">All Products</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="pressure.html">Pressure</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="differential-pressure.html">Differential Pressure</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="temperature.html">Temperature</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="level.html">Level</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="flow.html">Flow</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="switches.html">Switches</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="manifolds.html">Manifolds</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="gauges.html">Gauges</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="fittings.html">Fittings</a></li>
+          </ul>
+        </li>
+        <li><a class="site-navigation-link" href="about.html">About Us</a></li>
+        <li><a class="site-navigation-link" href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
   </header>
@@ -24,33 +39,113 @@
   <main>
     <section class="inner-page-heading" aria-labelledby="products-page-title">
       <p class="section-label-text">Our Products</p>
-      <h1 id="products-page-title">Instrumentation products</h1>
-      <p>Our product list is still being finalized for this website. Please come again later for the complete product catalogue.</p>
+      <h1 id="products-page-title">All products</h1>
+      <p>Explore our main process sensing and instrumentation product categories. Each card opens its own product page.</p>
     </section>
 
-    <section class="products-listing-grid" aria-label="Product catalogue status">
-      <article class="products-listing-card">
-        <div class="products-listing-image image-placeholder-box"><span>Coming soon</span></div>
-        <h2>Product catalogue</h2>
-        <p>Our finalized product list is being prepared for this website.</p>
-      </article>
-      <article class="products-listing-card">
-        <div class="products-listing-image image-placeholder-box"><span>Coming soon</span></div>
-        <h2>Product brochure</h2>
-        <p>The latest company product brochure will be added here shortly.</p>
-      </article>
-      <article class="products-listing-card">
-        <div class="products-listing-image image-placeholder-box"><span>Coming soon</span></div>
-        <h2>Technical details</h2>
-        <p>Please come again later for complete specifications and product details.</p>
-      </article>
+    <section class="products-category-grid shared-section-panel" aria-label="Product categories">
+      <a class="products-category-card" href="pressure.html">
+        <span class="products-category-card-top-accent" aria-hidden="true"></span>
+        <span class="products-category-card-text-content">
+          <span class="products-category-card-title">Pressure</span>
+          <span class="products-category-card-description">Gauges, transmitters, switches, seals, and accessories.</span>
+          <span class="products-category-card-explore-link">Explore Category →</span>
+        </span>
+        <img class="products-category-card-product-image" src="images/Aplisens Pressure Transmitter.png" alt="">
+      </a>
+
+      <a class="products-category-card" href="differential-pressure.html">
+        <span class="products-category-card-top-accent" aria-hidden="true"></span>
+        <span class="products-category-card-text-content">
+          <span class="products-category-card-title">Differential Pressure</span>
+          <span class="products-category-card-description">Transmitters, diaphragm seals, manifolds, and low-range DP solutions.</span>
+          <span class="products-category-card-explore-link">Explore Category →</span>
+        </span>
+        <img class="products-category-card-product-image" src="images/DP Remote seal.png" alt="">
+      </a>
+
+      <a class="products-category-card" href="temperature.html">
+        <span class="products-category-card-top-accent" aria-hidden="true"></span>
+        <span class="products-category-card-text-content">
+          <span class="products-category-card-title">Temperature</span>
+          <span class="products-category-card-description">Sensors, transmitters, thermowells, displays, and switches.</span>
+          <span class="products-category-card-explore-link">Explore Category →</span>
+        </span>
+        <img class="products-category-card-product-image" src="images/temp sensor (1).png" alt="">
+      </a>
+
+      <a class="products-category-card" href="level.html">
+        <span class="products-category-card-top-accent" aria-hidden="true"></span>
+        <span class="products-category-card-text-content">
+          <span class="products-category-card-title">Level</span>
+          <span class="products-category-card-description">Radar, hydrostatic, float, and continuous level solutions.</span>
+          <span class="products-category-card-explore-link">Explore Category →</span>
+        </span>
+        <img class="products-category-card-product-image" src="images/Radar Level Transmitter VEGA - Copy.png" alt="">
+      </a>
+
+      <a class="products-category-card" href="flow.html">
+        <span class="products-category-card-top-accent" aria-hidden="true"></span>
+        <span class="products-category-card-text-content">
+          <span class="products-category-card-title">Flow</span>
+          <span class="products-category-card-description">Flowmeters, switches, transmitters, and monitoring solutions.</span>
+          <span class="products-category-card-explore-link">Explore Category →</span>
+        </span>
+        <img class="products-category-card-product-image" src="images/background-removed (1).png" alt="">
+      </a>
+
+      <a class="products-category-card" href="switches.html">
+        <span class="products-category-card-top-accent" aria-hidden="true"></span>
+        <span class="products-category-card-text-content">
+          <span class="products-category-card-title">Switches</span>
+          <span class="products-category-card-description">Pressure, temperature, and process switching solutions.</span>
+          <span class="products-category-card-explore-link">Explore Category →</span>
+        </span>
+        <img class="products-category-card-product-image" src="images/Waterproof Pressure Switch.png" alt="">
+      </a>
+
+      <a class="products-category-card" href="manifolds.html">
+        <span class="products-category-card-top-accent" aria-hidden="true"></span>
+        <span class="products-category-card-text-content">
+          <span class="products-category-card-title">Manifolds</span>
+          <span class="products-category-card-description">Isolation, equalizing, calibration, and installation manifolds.</span>
+          <span class="products-category-card-explore-link">Explore Category →</span>
+        </span>
+        <img class="products-category-card-product-image" src="images/schnider manfold.png" alt="">
+      </a>
+
+      <a class="products-category-card" href="gauges.html">
+        <span class="products-category-card-top-accent" aria-hidden="true"></span>
+        <span class="products-category-card-text-content">
+          <span class="products-category-card-title">Gauges</span>
+          <span class="products-category-card-description">Pressure, temperature, and process indication gauges.</span>
+          <span class="products-category-card-explore-link">Explore Category →</span>
+        </span>
+        <img class="products-category-card-product-image" src="images/1032_Sanitary_Gauge_C.png" alt="">
+      </a>
+
+      <a class="products-category-card" href="fittings.html">
+        <span class="products-category-card-top-accent" aria-hidden="true"></span>
+        <span class="products-category-card-text-content">
+          <span class="products-category-card-title">Fittings</span>
+          <span class="products-category-card-description">Tube fittings, adapters, connectors, and installation accessories.</span>
+          <span class="products-category-card-explore-link">Explore Category →</span>
+        </span>
+        <img class="products-category-card-product-image" src="images/msa fitttings 3 (2).png" alt="">
+      </a>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>&copy; 2026 SAI Process Sensing. All rights reserved.</p>
   </footer>
+ 
 </body>
 </html>
+
+
+
+
+
 
 

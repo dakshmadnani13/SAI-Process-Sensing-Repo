@@ -4,29 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SAI Process Sensing | Home</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
   <header class="site-header">
     <nav class="site-navigation" aria-label="Main navigation">
       <a class="site-navigation-logo" href="index.html">
-        <img src="images/Sai sensing logo bg removed.png" alt="SAI Process Sensing logo">
+        <img class="site-navigation-logo-image" src="images/Sai sensing logo bg removed.png" alt="SAI Process Sensing logo">
       </a>
       <ul class="site-navigation-menu">
-        <li><a href="index.html" class="current-page-link">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a class="site-navigation-link current-page-link" href="index.html">Home</a></li>
+        <li class="site-navigation-products-dropdown">
+          <a class="site-navigation-link" href="products.html">Products <span class="site-navigation-products-dropdown-arrow" aria-hidden="true"></span></a>
+          <ul class="site-navigation-products-dropdown-menu" aria-label="Product categories">
+            <li><a class="site-navigation-products-dropdown-link" href="products.html">All Products</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="pressure.html">Pressure</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="differential-pressure.html">Differential Pressure</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="temperature.html">Temperature</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="level.html">Level</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="flow.html">Flow</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="switches.html">Switches</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="manifolds.html">Manifolds</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="gauges.html">Gauges</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="fittings.html">Fittings</a></li>
+          </ul>
+        </li>
+        <li><a class="site-navigation-link" href="about.html">About Us</a></li>
+        <li><a class="site-navigation-link" href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section class="home-hero-section" aria-labelledby="home-hero-title">
-      <div class="home-hero-content">
+      <div class="home-hero-introduction-content">
         <p class="section-label-text">Industrial Instrumentation Solutions</p>
-        <h1 id="home-hero-title">Reliable process instrumentation for demanding operations.</h1>
-        <p>We support industries with practical instrumentation products, technical knowledge, and dependable service.</p>
+        <h1 class="home-hero-main-heading" id="home-hero-title">Reliable process instrumentation for demanding operations.</h1>
+        <p class="home-hero-supporting-text">We support industries with practical instrumentation products, technical knowledge, and dependable service.</p>
         <a class="primary-action-button" href="products.html">View Products</a>
       </div>
       <figure class="home-hero-product-slideshow" aria-label="Featured process instrumentation products">
@@ -42,28 +57,58 @@
       </figure>
     </section>
 
-    <section class="home-services-summary-grid" aria-labelledby="home-services-title">
-      <h2 id="home-services-title" class="visually-hidden">Company service highlights</h2>
-      <article class="home-services-summary-card">
-        <h2>Products</h2>
-        <p>Instrumentation products for measurement, monitoring, and control applications.</p>
-      </article>
-      <article class="home-services-summary-card">
-        <h2>Service</h2>
-        <p>Focused support for selecting the right instruments for your process needs.</p>
-      </article>
-      <article class="home-services-summary-card">
-        <h2>Quality</h2>
-        <p>A simple, reliable approach built around industrial performance and long-term use.</p>
-      </article>
+    <section class="home-best-sellers-section" aria-labelledby="home-best-sellers-title">
+      <h2 class="home-best-sellers-heading" id="home-best-sellers-title">Our Best Sellers</h2>
+
+      <div class="home-best-sellers-grid shared-section-panel">
+        <article class="home-best-seller-card shared-content-card">
+          <img class="home-best-seller-card-image" src="images/Aplisens Pressure Transmitter.png" alt="Industrial pressure transmitter">
+          <h3 class="home-best-seller-card-title">Transmitters</h3>
+          <p class="home-best-seller-card-description">Pressure, differential pressure, level, temperature, and flow transmitters for demanding processes.</p>
+          <button
+            class="primary-action-button"
+            type="button"
+            onclick="window.open('https://wa.me/971506139771?text=Hello%20SAI%20Process%20Sensing%2C%20I%20would%20like%20to%20send%20an%20enquiry%20about%20transmitters.', '_blank', 'noopener,noreferrer')">
+            Send Enquiry
+          </button>
+        </article>
+
+        <article class="home-best-seller-card shared-content-card">
+          <img class="home-best-seller-card-image" src="images/schnider manfold.png" alt="Differential pressure instrumentation assembly">
+          <h3 class="home-best-seller-card-title">Manifolds</h3>
+          <p class="home-best-seller-card-description">Instrumentation manifolds for pressure and differential pressure measurement applications.</p>
+          <button
+            class="primary-action-button"
+            type="button"
+            onclick="window.open('https://wa.me/971506139771?text=Hello%20SAI%20Process%20Sensing%2C%20I%20would%20like%20to%20send%20an%20enquiry%20about%20manifolds.', '_blank', 'noopener,noreferrer')">
+            Send Enquiry
+          </button>
+        </article>
+
+        <article class="home-best-seller-card shared-content-card">
+          <img class="home-best-seller-card-image" src="images/msa fitttings 3 (2).png" alt="Industrial instrumentation fitting and gauge assembly">
+          <h3 class="home-best-seller-card-title">Fittings</h3>
+          <p class="home-best-seller-card-description">Reliable industrial fittings for process instrumentation installation and connection needs.</p>
+          <button
+            class="primary-action-button"
+            type="button"
+            onclick="window.open('https://wa.me/971506139771?text=Hello%20SAI%20Process%20Sensing%2C%20I%20would%20like%20to%20send%20an%20enquiry%20about%20fittings.', '_blank', 'noopener,noreferrer')">
+            Send Enquiry
+          </button>
+        </article>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>&copy; 2026 SAI Process Sensing. All rights reserved.</p>
   </footer>
+  
 </body>
 </html>
+
+
+
 
 
 

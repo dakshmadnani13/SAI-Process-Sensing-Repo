@@ -4,19 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SAI Process Sensing | Contact Us</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
   <header class="site-header">
     <nav class="site-navigation" aria-label="Main navigation">
       <a class="site-navigation-logo" href="index.html">
-        <img src="images/Sai sensing logo bg removed.png" alt="SAI Process Sensing logo">
+        <img class="site-navigation-logo-image" src="images/Sai sensing logo bg removed.png" alt="SAI Process Sensing logo">
       </a>
       <ul class="site-navigation-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html" class="current-page-link">Contact Us</a></li>
+        <li><a class="site-navigation-link" href="index.html">Home</a></li>
+        <li class="site-navigation-products-dropdown">
+          <a class="site-navigation-link" href="products.html">Products <span class="site-navigation-products-dropdown-arrow" aria-hidden="true"></span></a>
+          <ul class="site-navigation-products-dropdown-menu" aria-label="Product categories">
+            <li><a class="site-navigation-products-dropdown-link" href="products.html">All Products</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="pressure.html">Pressure</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="differential-pressure.html">Differential Pressure</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="temperature.html">Temperature</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="level.html">Level</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="flow.html">Flow</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="switches.html">Switches</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="manifolds.html">Manifolds</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="gauges.html">Gauges</a></li>
+            <li><a class="site-navigation-products-dropdown-link" href="fittings.html">Fittings</a></li>
+          </ul>
+        </li>
+        <li><a class="site-navigation-link" href="about.html">About Us</a></li>
+        <li><a class="site-navigation-link current-page-link" href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
   </header>
@@ -28,11 +43,11 @@
       <p>Contact our team for product enquiries, technical support, quotations, and industrial instrumentation solutions. We offer extended-hours support, so please feel free to reach out.</p>
     </section>
 
-    <section class="contact-details-and-enquiry-layout" aria-labelledby="contact-section-title">
+    <section class="contact-details-and-enquiry-layout shared-section-panel" aria-labelledby="contact-section-title">
       <h2 id="contact-section-title" class="visually-hidden">Contact details and enquiry form</h2>
 
       <!-- Company contact information and embedded Google Maps location. -->
-      <address class="contact-company-details">
+      <address class="contact-company-details shared-content-card">
         <h2>Contact details</h2>
         <p><strong>Email:</strong> <a href="mailto:sales@sai-mc.com">sales@sai-mc.com</a></p>
         <p><strong>Phone:</strong> <a href="tel:+97145580140">04-558-0140</a></p>
@@ -49,7 +64,7 @@
         <a class="contact-company-location-map-link" href="https://www.google.com/maps/search/?api=1&query=SAI%20Process%20Instrumentation%20LLC%2C%20Warehouse%20216%2C%20Sheikh%20Saeed%20Al%20Maktoum%20Business%20Complex%2C%20Jebel%20Ali%20Industrial%20Area%201%2C%20Dubai" target="_blank" rel="noopener noreferrer"></a></address>
 
       <!-- Customer enquiry form submitted through Web3Forms. -->
-      <form class="contact-enquiry-form" action="https://api.web3forms.com/submit" method="post">
+      <form class="contact-enquiry-form shared-content-card" action="https://api.web3forms.com/submit" method="post">
         <fieldset class="contact-enquiry-fieldset">
           <legend>Send an enquiry</legend>
           <input type="hidden" name="access_key" value="ca830ef4-7528-4c09-a2b5-b26e56dfc428">
@@ -72,5 +87,12 @@
   <footer class="site-footer">
     <p>&copy; 2026 SAI Process Sensing. All rights reserved.</p>
   </footer>
+  
 </body>
 </html>
+
+
+
+
+
+
